@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE klubovi SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+<klubovi>
+	<klub id="308945892514875">
+		<naziv>Zagreb Muaythai Yokkao training centre</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Srđan</ime>
+				<prezime>Špirk</prezime>
+			</trener>
+			<trener>
+				<ime>Irena</ime>
+				<prezime>Čuić</prezime>
+			</trener>
+			<trener>
+				<ime>Monika</ime>
+				<prezime>Rakitničan</prezime>
+			</trener>
+			<trener>
+				<ime>Denis</ime>
+				<prezime>Bartol</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="ne">Muaythai</sport>
+		<adresa>
+			<ulica>Avenija Dubrovnik</ulica>
+			<kucni_broj>15</kucni_broj>
+			<mjesto post_broj="10020">Zagreb</mjesto>
+		</adresa>
+		<email>srdan.spirk@muaythaizagreb.com</email>
+		<email>zagrebmuaythai@gmail.com</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="091">3105983</broj>
+		</telefon>
+		<clanarina>300</clanarina>
+	</klub>
+	<klub id="200432463360949">
+		<naziv>Muay thai Spartan Gym</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Aleksandar</ime>
+				<prezime>Pupac</prezime>
+			</trener>
+			<trener>
+				<ime>Boris</ime>
+				<prezime>Dugonjić</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="ne">Muaythai</sport>
+		<adresa>
+			<ulica>Ilica</ulica>
+			<kucni_broj>33</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<email>spartangym.zg@gmail.com</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="098">1384075</broj>
+		</telefon>
+		<clanarina>250</clanarina>
+	</klub>
+	<klub id="391882160953496">
+		<naziv>Kyokushin karate klub Split</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Toni</ime>
+				<prezime>Majstorović</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="ne" stil_karatea="Kyokushin">Karate</sport>
+		<adresa>
+			<ulica>Ruđera Boškovića</ulica>
+			<kucni_broj>33</kucni_broj>
+			<mjesto post_broj="21000">Split</mjesto>
+		</adresa>
+		<adresa>
+			<ulica>Na Križice</ulica>
+			<kucni_broj>2</kucni_broj>
+			<mjesto post_broj="21000">Split</mjesto>
+		</adresa>
+		<email>toni.majstorovic12@gmail.com</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="098">1935559</broj>
+		</telefon>
+		<clanarina>150</clanarina>
+	</klub>
+	<klub id="262377943808872">
+		<naziv>Karate Klub Moslavina Kutina</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Vladimir</ime>
+				<prezime>Šintić</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="ne" stil_karatea="Kyokushin">Karate</sport>
+		<adresa>
+			<ulica>Hrvatskih branitelja</ulica>
+			<kucni_broj>10</kucni_broj>
+			<mjesto post_broj="44320">Kutina</mjesto>
+		</adresa>
+		<email>bgrahek@inet.hr</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="098">735395</broj>
+		</telefon>
+		<clanarina>300</clanarina>
+	</klub>
+	<klub id="265482900515">
+		<naziv>Kyokushin Karate Klub Sosai</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Kruno</ime>
+				<prezime>Garašić</prezime>
+			</trener>
+			<trener>
+				<ime>Dunja</ime>
+				<prezime>Mandić</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="ne" stil_karatea="Kyokushin">Karate</sport>
+		<adresa>
+			<ulica>Trg Slavoljuba Penkale</ulica>
+			<kucni_broj>1</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<email>karate.sosai@gmail.com</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="099">5019951</broj>
+		</telefon>
+		<clanarina>350</clanarina>
+	</klub>
+	<klub id="714001098631874">
+		<naziv>Judo Klub Sakura</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Karlo</ime>
+				<prezime>Lacković</prezime>
+			</trener>
+			<trener>
+				<ime>Irena</ime>
+				<prezime>Lacković</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Hrvacki" olimpijski="da">Judo</sport>
+		<adresa>
+			<ulica>Školska</ulica>
+			<kucni_broj>4</kucni_broj>
+			<mjesto post_broj="10437">Rakitje</mjesto>
+		</adresa>
+		<email>jk.sakura@hotmail.com</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="097">7824020</broj>
+		</telefon>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="098">469369</broj>
+		</telefon>
+		<clanarina>200</clanarina>
+	</klub>
+		<klub id="958760817521877">
+		<naziv>Kyokushin Karate Klub Croatia Zadar</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Hrvoje</ime>
+				<prezime>Mikecin</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="ne" stil_karatea="Kyokushin">Karate</sport>
+		<adresa>
+			<ulica>Put Stanova</ulica>
+			<kucni_broj>3</kucni_broj>
+			<mjesto post_broj="23000">Zadar</mjesto>
+		</adresa>
+		<email>karatecroatiazadar@yahoo.com</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="091">7604966</broj>
+		</telefon>
+		<clanarina>180</clanarina>
+	</klub>
+	<klub id="140967406251843">
+		<naziv>Kyokushin Karate Klub Domenica i Fortis</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Vladimir</ime>
+				<prezime>Sekelj</prezime>
+			</trener>
+			<trener>
+				<ime>Ivica</ime>
+				<prezime>Stanić</prezime>
+			</trener>
+			<trener>
+				<ime>Tomo</ime>
+				<prezime>Fabekovac</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="ne" stil_karatea="Kyokushin">Karate</sport>
+		<adresa>
+			<ulica>Domaslovečka</ulica>
+			<kucni_broj>75</kucni_broj>
+			<mjesto post_broj="10430">Samobor</mjesto>
+		</adresa>
+		<email>vladimir.sekelj@zg.t-com.hr</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="091">5122079</broj>
+		</telefon>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="099">2495943</broj>
+		</telefon>
+		<clanarina>150</clanarina>
+	</klub>
+	<klub id="1419813195007501">
+		<naziv>Karate Klub Mladost Samobor</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Darko</ime>
+				<prezime>Šimunec</prezime>
+			</trener>
+			<trener>
+				<ime>Davor</ime>
+				<prezime>Mrzak</prezime>
+			</trener>
+			<trener>
+				<ime>Davor</ime>
+				<prezime>Cipek</prezime>
+			</trener>
+			<trener>
+				<ime>Ivana</ime>
+				<prezime>Karamatić</prezime>
+			</trener>
+			<trener>
+				<ime>Ana</ime>
+				<prezime>Lenard</prezime>
+			</trener>
+			<trener>
+				<ime>Maja</ime>
+				<prezime>Lenard</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="ne" stil_karatea="Shotokan">Karate</sport>
+		<adresa>
+			<ulica>Andrije Hebranga</ulica>
+			<kucni_broj>26a</kucni_broj>
+			<mjesto post_broj="10430">Samobor</mjesto>
+		</adresa>
+		<email>darko.simunec@zg.htnet.hr</email>
+		<telefon vrsta="fiksni">
+			<broj pozivni_broj="01">3365888</broj>
+		</telefon>
+		<clanarina>300</clanarina>
+	</klub>
+		<klub id="161668812008">
+		<naziv>Taekwondo Klub Jastreb</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Dražen</ime>
+				<prezime>Ćaćić</prezime>
+			</trener>
+			<trener>
+				<ime>Branimir</ime>
+				<prezime>Ćaćić</prezime>
+			</trener>
+			<trener>
+				<ime>Ana</ime>
+				<prezime>Iskra</prezime>
+			</trener>
+			<trener>
+				<ime>Filip</ime>
+				<prezime>Božić</prezime>
+			</trener>
+			<trener>
+				<ime>Matej</ime>
+				<prezime>Škreblin</prezime>
+			</trener>
+			<trener>
+				<ime>Ivan</ime>
+				<prezime>Brekalo</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="da">Taekwondo</sport>
+		<adresa>
+			<ulica>Jablanska</ulica>
+			<kucni_broj>21</kucni_broj>
+			<mjesto post_broj="10090">Zagreb</mjesto>
+		</adresa>
+		<adresa>
+			<ulica>Jablanska ulica</ulica>
+			<kucni_broj>51</kucni_broj>
+			<mjesto post_broj="10090">Zagreb</mjesto>
+		</adresa>
+		<adresa>
+			<ulica>Oriovačka</ulica>
+			<kucni_broj>34</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<adresa>
+			<ulica>Dječji trg</ulica>
+			<kucni_broj>1</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<adresa>
+			<ulica>Dragutina Golika</ulica>
+			<kucni_broj>116</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<adresa>
+			<ulica>Ante Topića Mimare</ulica>
+			<kucni_broj>36</kucni_broj>
+			<mjesto post_broj="10090">Zagreb</mjesto>
+		</adresa>
+		<email>tkd.jastreb@gmail.com</email>
+		<telefon vrsta="fiksni">
+			<broj pozivni_broj="01">3874733</broj>
+		</telefon>
+		<clanarina>100</clanarina>
+	</klub>
+	<klub id="155851319929">
+		<naziv>Taekwondo klub Susedgrad Sokol</naziv>
+		<treneri>
+			<trener>
+				<glavni_trener />
+				<ime>Anđelko</ime>
+				<prezime>Vučenik</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="da">Taekwondo</sport>
+		<adresa>
+			<ulica>Vrapčanska</ulica>
+			<kucni_broj>166</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<adresa>
+			<ulica>Podsusedski Trg</ulica>
+			<kucni_broj>14b</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<adresa>
+			<ulica>Bolnička</ulica>
+			<kucni_broj>3a</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<email>info@tkd-susedgrad-sokol.hr</email>
+		<telefon vrsta="fiksni">
+			<broj pozivni_broj="01">3463001</broj>
+		</telefon>
+		<clanarina>400</clanarina>
+	</klub>
+	<klub id="207508119272105">
+		<naziv>Boks Klub Titan Gym</naziv>
+		<treneri>
+			<trener>
+				<ime>Nikola</ime>
+				<prezime>Švalj</prezime>
+			</trener>
+			<trener>
+				<ime>Tihomir</ime>
+				<prezime>Joskić</prezime>
+			</trener>
+			<trener>
+				<glavni_trener />
+				<ime>Marko</ime>
+				<prezime>Bračić</prezime>
+			</trener>
+		</treneri>
+		<sport tip="Udaracki" olimpijski="da">Boks</sport>
+		<adresa>
+			<ulica>Ilica</ulica>
+			<kucni_broj>500</kucni_broj>
+			<mjesto post_broj="10000">Zagreb</mjesto>
+		</adresa>
+		<email>info@boks.hr</email>
+		<telefon vrsta="mobilni">
+			<broj pozivni_broj="098">231713</broj>
+		</telefon>
+		<clanarina>80</clanarina>
+	</klub>
+</klubovi>

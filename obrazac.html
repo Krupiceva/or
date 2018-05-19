@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Klubovi borilačkih sportova u Hrvatskoj</title>
+		<link rel="stylesheet" type="text/css" href="dizajn.css" />	
+	</head>	
+	<body>
+		<div class="main_container">
+			<header class="zoom_in">
+				<a href="index.html">
+				<img class="main_img" src="images/main_img_2.jpg" alt="header image" />
+				<div id="header_text">Klubovi borilačkih sportova u Hrvatskoj</div>
+				</a>
+			</header>
+			<nav class="zoom_in">
+				<img id="logo_img" src="images/muay_thai_logo.png" alt="muay thai logo" />
+				<ul>
+					 <li><a href="index.html">Početna</a></li>
+					 <li><a href="obrazac.html">Pretraživanje</a></li>
+					 <li><a href="podaci.xml">Klubovi</a></li>
+					 <li><a href="http://www.fer.unizg.hr/predmet/or">Otvoreno računarstvo</a></li>
+					 <li><a href="http://www.fer.unizg.hr/" target="_blank">FER</a></li>
+					 <li><a href="mailto:dora.mlinaric@fer.hr">Kontakt</a></li>
+				</ul>
+			</nav>
+			<main>
+				<section class="zoom_in">
+					<h2>Pretraživanje sportskih klubova</h2>
+				</section>
+				<section class="zoom_in">
+					<form action="pretraga.php" method="get" name="search">
+						<table id="form_table">
+							<tr>
+								<th colspan="4">Ispunite podatke o klubu:</th>
+							</tr>
+							<tr>
+								<td>Ime kluba</td>
+								<td colspan="3"><input class="text_field even" type="text" name="naziv"></td>
+							</tr>
+							<tr>
+								<td>Tip sporta</td>
+								<td>
+									<input type="radio" name="tip" value="Udaracki">Udarački<br>
+									<input type="radio" name="tip" value="Hrvacki">Hrvački
+								</td>
+								<td>Stil karatea</td>
+								<td>
+									<input type="checkbox" name="stil_karatea[]" value="Kyokushin">Kyokushin<br>
+									<input type="checkbox" name="stil_karatea[]" value="Shotokan">Shotokan<br>
+									<input type="checkbox" name="stil_karatea[]" value="Goyuryu">Goyu Ryu<br>
+									<input type="checkbox" name="stil_karatea[]" value="Uechiryu">Uechi Ryu<br>
+									<input type="checkbox" name="stil_karatea[]" value="Shitoryu">Shito Ryu<br>
+									<input type="checkbox" name="stil_karatea[]" value="Shorinryu">Shorin Ryu
+								</td>
+							</tr>
+							<tr>
+								<td>Olimpijski sport</td>
+								<td colspan="3">
+									<input type="radio" name="olimpijski" value="da">Olimpijski sport<br>
+									<input type="radio" name="olimpijski" value="ne">Neolimpijski sport<br>
+									<input type="radio" name="olimpijski" value="u_procesu">U procesu postajanja olimpijskim sportom
+								</td>
+							</tr>
+							<tr>
+								<td>Borilački sport</td>
+								<td colspan="3"><select name="sport">
+									<option label=" "></option>
+									<option value="karate">Karate</option>
+									<option value="kickboxing">Kickboxing</option>
+									<option value="boks">Boks</option>
+									<option value="muaythai">Muay thai</option>
+									<option value="taekwondo">Taekwondo</option>
+									<option value="savate">Savate</option>
+									<option value="judo">Judo</option>
+									<option value="hrvanje">Hrvanje</option>
+								</select></td>
+							</tr>
+							<tr>
+								<td colspan="4">
+									<fieldset>
+									    <legend>Trener:</legend>
+									    Ime:<br>
+									    <input class="text_field even" type="text" name="ime">
+									    <br>
+									    Prezime:<br>
+									    <input class="text_field even" type="text" name="prezime">
+								  </fieldset>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4">
+										Adresa<br><br>
+										Grad:<br>
+										<input class="text_field odd" type="text" name="adresa">
+								</td>
+							</tr>
+							<tr>
+								<td colspan="4">
+									Kontakt<br><br>
+									Mail:
+									<input class="text_field even" type="text" name="email">
+								</td>
+							</tr>
+							<tr>
+								<td>Raspon članarine</td>
+								<td colspan="3"><select name="clanarina">
+									<option label=" "></option>
+									<option value="lt100">manje od 100kn</option>
+									<option value="gt100lt200">između 100kn i 200kn</option>
+									<option value="gt200lt300">između 200kn i 300kn</option>
+									<option value="gt300">više od 300</option>
+								</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="buttons" colspan="4">
+									<input id="sub_button" type="submit" value="Pretraži">
+                    				<input id="rst_button" type="reset" value="Poništi">
+								</td>
+							</tr>
+						</table>
+					</form>
+				</section>
+			</main>
+			<footer>
+				<p>&#169;Dora Mlinarić - Otvoreno računarstvo 2017/18</p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<!ELEMENT klubovi (klub+)>
+
+<!ELEMENT klub (naziv,treneri, sport, adresa*, email*, telefon*, clanarina)>
+	<!ATTLIST klub id CDATA #REQUIRED>
+<!ELEMENT naziv (#PCDATA)>
+<!ELEMENT treneri (trener+)>
+	<!ELEMENT trener (glavni_trener?, ime, prezime)>
+		<!ELEMENT glavni_trener EMPTY>
+		<!ELEMENT ime (#PCDATA)>
+		<!ELEMENT prezime (#PCDATA)>
+<!ELEMENT sport (#PCDATA)>
+	<!ATTLIST sport tip (Udaracki|Hrvacki) #REQUIRED>
+	<!ATTLIST sport olimpijski (da|ne|proces) #REQUIRED>
+	<!ATTLIST sport stil_karatea (Kyokushin|Shotokan|Goyu_ryu|Uechi_ryu|Shito_ryu|Shorin_ryu) #IMPLIED>
+<!ELEMENT adresa (ulica, kucni_broj, mjesto)>
+	<!ELEMENT ulica (#PCDATA)>
+	<!ELEMENT kucni_broj (#PCDATA)>
+	<!ELEMENT mjesto (#PCDATA)>
+		<!ATTLIST mjesto post_broj CDATA #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefon (broj)>
+	<!ATTLIST telefon vrsta (mobilni|fiksni) #REQUIRED>
+	<!ELEMENT broj (#PCDATA)>
+		<!ATTLIST broj pozivni_broj (01|091|092|095|097|098|099) #REQUIRED>
+<!ELEMENT clanarina (#PCDATA)>
